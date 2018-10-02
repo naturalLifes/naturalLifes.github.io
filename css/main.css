@@ -1207,17 +1207,17 @@ blockquote.normal {
 	overflow: hidden;
 }
 
-#slideHills .item-hills {
+#slideHill .item-hills {
 	color: #d9d9d9;
 	padding: 5em 10em;
 }
 
-#slideHills .caption,
-#slideHills .caption h3 {
+#slideHill .caption,
+#slideHill .caption h3 {
 	color: #d9d9d9;
 }
 
-#slideHills .carousel-indicators {
+#slideHill .carousel-indicators {
 	margin-bottom: 7em;
 }
 
@@ -9358,7 +9358,7 @@ h4,
   background: rgba(0, 0, 0, 0.4);
 }
 
-.container-fluid.video-slider #slideHills {
+.container-fluid.video-slider #slideHill {
 	padding-top: 10em;
 	padding-bottom: 10em;
 }
