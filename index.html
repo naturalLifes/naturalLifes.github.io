@@ -1,0 +1,1729 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Natural Life Dalat</title>
+	<!-- favion -->
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<!-- link to font awesome -->
+	<link media="all" rel="stylesheet" href="js/vendors/font-awesome/css/font-awesome.css">
+	<!-- link to material icon font -->
+	<link media="all" rel="stylesheet" href="js/vendors/material-design-icons/material-icons.css">
+	<!-- link to custom icomoon fonts -->
+	<link rel="stylesheet" type="text/css" href="css/fonts/icomoon/icomoon.css">
+	<!-- link to wow js animation -->
+	<link media="all" rel="stylesheet" href="js/vendors/animate/animate.css">
+	<!-- include bootstrap css -->
+	<link media="all" rel="stylesheet" href="css/bootstrap.css">
+	<!-- include owl css -->
+	<link media="all" rel="stylesheet" href="js/vendors/owl-carousel/owl.carousel.css">
+	<link media="all" rel="stylesheet" href="js/vendors/owl-carousel/owl.theme.css">
+	<!-- include main css -->
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<!-- link to revolution css  -->
+	<link rel="stylesheet" type="text/css" href="js/vendors/revolution/css/settings.css">
+	<script src="js\angularjs.min.js" charset="utf-8"></script>
+</head>
+
+<body ng-app="app" ng-style="{ overflow: isoverFlowForm ? 'hidden' : '' }">
+	<div class="preloader" id="pageLoad">
+		<div class="holder">
+			<div class="coffee_cup"></div>
+		</div>
+	</div>
+
+	<!-- main wrapper -->
+	<div id="wrapper">
+		<div class="page-wrapper">
+			<!-- main header -->
+			<header id="header" class="white-header">
+				<div class="container-fluid">
+					<!-- logo -->
+					<div class="logo">
+						<a href="index.html">
+							<img class="normal" src="img/logos/Naturallife.png" alt="Natural Life">
+							<img class="gray-logo" src="img/logos/Naturallife.png" alt="Natural Life">
+						</a>
+					</div>
+					<!-- main navigation -->
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle nav-opener" data-toggle="collapse" data-target="#nav">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- main menu items and drop for mobile -->
+						<div class="collapse navbar-collapse" id="nav">
+							<!-- main navbar -->
+							<ul class="nav navbar-nav">
+								<li class="dropdown">
+									<a href="index.html">Home <b class="icon-angle-down"></b></a>
+								</li>
+								<li class="dropdown">
+									<a href="story.html">Story<b class="icon-angle-down"></b></a>
+								</li>
+								<li><a href="tour-detail.html">Services</a></li>
+								<li class="dropdown has-mega-dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Activities <b class="icon-angle-down"></b></a>
+									<div class="dropdown-menu">
+										<div class="drop-wrap">
+											<div class="drop-holder">
+												<div class="row">
+													<div class="col-sm-6 col-md-3">
+														<div class="col">
+															<div class="img-wrap">
+																<a href="hiking-camping.html"><img src="img/generic/img-01.jpg" height="228" width="350" alt="image description"></a>
+															</div>
+															<div class="des">
+																<strong class="title"><a href="hiking-camping.html">Hiking/Camping</a></strong>
+																<p>A good backpacker minimizes their impact on the environment, including staying on established trails, not disturbing vegetation, and carrying garbage out.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6 col-md-3">
+														<div class="col">
+															<div class="img-wrap">
+																<a href="jungle-safari.html"><img src="img/generic/img-02.jpg" height="215" width="370" alt="image description"></a>
+															</div>
+															<div class="des">
+																<strong class="title"><a href="jungle-safari.html">Jungle Safari</a></strong>
+																<p>In the past, the trip was often a big-game hunt, but today, safari often refers to trips to observe and photograph wildlife—or hiking and sight-seeing as well.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6 col-md-3">
+														<div class="col">
+															<div class="img-wrap">
+																<a href="city-tour.html"><img src="img/generic/img-03.jpg" height="215" width="370" alt="image description"></a>
+															</div>
+															<div class="des">
+																<strong class="title"><a href="city-tour.html">Dalat City Tour</a></strong>
+																<p>The type of urban city tour considered here is a full, partial-day, or longer tour of a historical, or cultural or artistic site in one or more tourist destinations.</p>
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6 col-md-3">
+														<div class="col">
+															<div class="img-wrap">
+																<a href="family-fun.html"><img src="img/generic/img-04.jpg" height="215" width="370" alt="image description"></a>
+															</div>
+															<div class="des">
+																<strong class="title"><a href="family-fun.html">Family Fun</a></strong>
+																<p>A community area is available on Trafalgar’s website offering members the opportunity to interact with fellow travelers by joining groups, contributing to forums.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="dropdown">
+									<a href="blog.html">Blog <b class="icon-angle-down"></b></a>
+								</li>
+								<li class="dropdown has-mega-dropdown mega-md">
+									<a href="contact.html">Contact <b class="icon-angle-down"></b></a>
+								</li>
+								<li class="visible-xs visible-sm">
+									<a href="login.html">
+										<span class="icon icon-user"></span>
+										<span class="text">Login</span>
+									</a>
+								</li>
+								<li class="hidden-xs hidden-sm v-divider">
+									<a href="login.html">
+										<span class="icon icon-user"></span>
+									</a>
+								</li>
+								<li class="dropdown hidden-xs hidden-sm last-dropdown v-divider">
+									<a href="#"><span class="text">EN</span> <span class="icon-angle-down"></span></a>
+									<div class="dropdown-menu dropdown-sm">
+										<div class="drop-wrap lang-wrap">
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">English</span>
+													</a>
+												</div>
+											</div>
+											<div class="lang-row">
+												<div class="lang-col">
+													<a href="#">
+														<span class="text">Vietnamese</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="visible-md visible-lg nav-visible v-divider"><a href="#" class="search-opener"><span class="icon icon-search"></span></a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<!-- search form -->
+				<form class="search-form" action="#">
+					<fieldset>
+						<a href="#" class="search-opener hidden-md hidden-lg">
+							<span class="icon-search"></span>
+						</a>
+						<div class="search-wrap">
+							<a href="#" class="search-opener close">
+								<span class="icon-cross"></span>
+							</a>
+							<div class="trip-form trip-form-v2 trip-search-main">
+								<div class="trip-form-wrap">
+									<div class="holder">
+										<label>Departing</label>
+										<div class='select-holder'>
+											<div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
+												<input class="form-control" type="text" readonly />
+												<span class="input-group-addon"><i class="icon-drop"></i></span>
+											</div>
+										</div>
+									</div>
+									<div class="holder">
+										<label>Returning</label>
+										<div class='select-holder'>
+											<div id="datepicker1" class="input-group date" data-date-format="mm-dd-yyyy">
+												<input class="form-control" type="text" readonly />
+												<span class="input-group-addon"><i class="icon-drop"></i></span>
+											</div>
+										</div>
+									</div>
+									<div class="holder">
+										<label for="select-region">Select Location</label>
+										<div class='select-holder'>
+											<select class="trip-select trip-select-v2 region" name="region" id="select-region">
+												<option value="select">Da lat</option>
+												<option value="select">Nha trang</option>
+												<option value="select">Cam ranh</option>
+												<option value="select">Phan thiet</option>
+												<option value="select">Ho Chi Minh</option>
+											</select>
+										</div>
+									</div>
+									<div class="holder">
+										<label for="select-activity">Select Activity</label>
+										<div class='select-holder'>
+											<select class="trip-select trip-select-v2 acitvity" name="activity" id="select-activity">
+												<option value="Holiday Type">Holiday Type</option>
+												<option value="Holiday Type">Beach Holidays</option>
+												<option value="Holiday Type">Weekend Trips</option>
+												<option value="Holiday Type">Summer and Sun</option>
+												<option value="Holiday Type">Water Sports</option>
+												<option value="Holiday Type">Scuba Diving</option>
+											</select>
+										</div>
+									</div>
+									<div class="holder">
+										<label for="price-range">Price Range</label>
+										<div class='select-holder'>
+											<select class="trip-select trip-select-v2 price" name="activity" id="price-range">
+												<option value="Price Range">Price Range</option>
+												<option value="Price Range">$1 - $499</option>
+												<option value="Price Range">$500 - $999</option>
+												<option value="Price Range">$1000 - $1499</option>
+												<option value="Price Range">$1500 - $2999</option>
+												<option value="Price Range">$3000+</option>
+											</select>
+										</div>
+									</div>
+									<div class="holder">
+										<button class="btn btn-trip btn-trip-v2" type="submit">Find Tours</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</form>
+			</header>
+			<!-- main banner -->
+			<div class="banner banner-home">
+				<!-- revolution slider starts -->
+				<div id="rev_slider_279_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="restaurant-header" style="margin:0px auto;background-color:#474d4b;padding:0px;margin-top:0px;margin-bottom:0px;">
+					<div id="rev_slider_70_1" class="rev_slider fullscreenabanner" style="display:none;" data-version="5.1.4">
+						<ul>
+							<li class="slider-color-schema-dark" data-index="rs-2" data-transition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1000" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+								<!-- main image for revolution slider -->
+								<img src="img/banner/img-01.jpg" alt="image description" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-bgfit="cover" data-no-retina>
+
+								<div class="tp-caption tp-resizeme" id="slide-897-layer-7"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['160','120','-120','-70']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+									data-transform_out="opacity:0;s:300;s:300;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									data-start="1500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 9; white-space: nowrap; font-size: 60px; line-height: 100px;text-align:center;">
+									<span class="icon-wildlife"></span>
+								</div>
+
+								<div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['280','240','10','20']"
+									data-fontsize="['48','48','44','28']"
+									data-lineheight="['85','85','50','50']"
+									data-width="['1200','1000','750','480']"
+									data-height="none"
+									data-whitespace="normal"
+									data-transform_idle="o:1;"
+									data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+									data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:0px;"
+									data-mask_out="x:inherit;y:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 7; letter-spacing: 0; font-weight: 100; text-align: center; color: #ffffff">EXPEDITION OF UNEXPLORED
+								</div>
+
+								<div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-10"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['340','290','70','70']"
+									data-fontsize="['60','60','60','40']"
+									data-lineheight="['110','110','100','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 8; padding-right: 10px; text-indent: 5px; font-weight: 900; white-space: nowrap;">CONCEPTION
+								</div>
+
+								<div class="tp-caption rev-btn  rs-parallaxlevel-10" id="slide-163-layer-2"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['middle','middle','middle','middle']"
+									data-voffset="['150','160','180','150']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_out="x:inherit;y:inherit;"
+									data-start="1250"
+									data-splitin="none"
+									data-splitout="none"
+									data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+									data-responsive_offset="on">
+									<a class="btn btn-banner" href="#">TOURISM CONCENTRATION</a>
+								</div>
+							</li>
+
+							<li data-index="rs-81" data-transition="slideoverup" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-rotate="0"  data-saveperformance="off"  data-title="The Menu" data-description="">
+								<!-- main image for revolution slide -->
+								<img alt="image description" src="img/banner/img-01.jpg"  data-lazyload="img/banner/img-02.png" data-bgposition="right center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="110" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina>
+
+								<div class="tp-caption tp-resizeme" id="slide-897-layer1-7"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['160','120','-120','-70']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;"
+									data-transform_out="opacity:0;s:300;s:300;"
+									data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
+									data-start="1500"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 9; white-space: nowrap; font-size: 60px; line-height: 100px;text-align:center;">
+									<span class="icon-hiking-camping"></span>
+								</div>
+
+								<div class="tp-caption banner-heading-sub tp-resizeme rs-parallaxlevel-0"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['280','240','10','20']"
+									data-fontsize="['48','48','44','28']"
+									data-lineheight="['85','85','50','50']"
+									data-width="['1200','1000','750','480']"
+									data-height="none"
+									data-whitespace="normal"
+									data-transform_idle="o:1;"
+									data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+									data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:0px;"
+									data-mask_out="x:inherit;y:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 7; letter-spacing: 0; font-weight: 100; text-align: center; color: #ffffff">ADEVENTURE TOUR
+								</div>
+
+								<div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-10"
+									data-x="['center','center','center','center']"
+									data-hoffset="['-80','-80','-80','-60']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['330','280','60','60']"
+									data-fontsize="['60','60','60','40']"
+									data-lineheight="['110','110','100','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 8; padding-right: 10px; text-indent: 5px; font-weight: 300; font-style: italic; white-space: nowrap; color:">of
+								</div>
+
+								<div class="tp-caption tp-resizeme banner-heading-sub rs-parallaxlevel-10"
+									data-x="['center','center','center','center']"
+									data-hoffset="['30','30','30','20']"
+									data-y="['top','top','middle','middle']"
+									data-voffset="['330','280','60','60']"
+									data-fontsize="['60','60','60','40']"
+									data-lineheight="['110','110','100','60']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power4.easeInOut;"
+									data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+									data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
+									data-start="1000"
+									data-splitin="none"
+									data-splitout="none"
+									data-responsive_offset="on"
+									style="z-index: 8; padding-right: 10px; text-indent: 5px; font-weight: 900; white-space: nowrap;">2018
+								</div>
+
+								<div class="tp-caption rev-btn rs-parallaxlevel-10" id="slide-163-layer1-2"
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['middle','middle','middle','middle']"
+									data-voffset="['150','160','180','150']"
+									data-width="none"
+									data-height="none"
+									data-whitespace="nowrap"
+									data-transform_idle="o:1;"
+									data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
+									data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+									data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+									data-mask_out="x:inherit;y:inherit;"
+									data-start="800"
+									data-splitin="none"
+									data-splitout="none"
+									data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+									data-responsive_offset="on">
+									<a class="btn btn-banner" href="#">HI</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="feature-block">
+					<div class="holder">
+						<ul>
+							<li>
+								<a href="/tour-detail.html">
+									<span class="ico">
+										<span class="icon-tour"></span>
+									</span>
+									<span class="info">Tour</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="ico">
+										<span class="icon-resort"></span>
+									</span>
+									<span class="info">Resort</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="ico">
+										<span class="icon-restaurant"></span>
+									</span>
+									<span class="info">Restaurant</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="ico">
+										<span class="icon-rental"></span>
+									</span>
+									<span class="info">rental service</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="ico">
+										<span class="icon-entertainment"></span>
+									</span>
+									<span class="info">entertainment</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="ico">
+										<span class="icon-special"></span>
+									</span>
+									<span class="info">special</span>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- main container -->
+			<main id="main">
+				<!-- article list holder -->
+				<div class="content-block content-spacing">
+					<div class="container">
+						<header class="content-heading">
+							<h2 class="main-heading">POPULAR Services</h2>
+							<span class="main-subtitle">We have a unique way of meeting your nature expectations!</span>
+							<div class="seperator"></div>
+						</header>
+						<div class="content-holder">
+							<div class="row db-3-col">
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-01.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">Discover Timeless</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Jungle safari for families</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-02.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">Finding Microbiologys</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Nature science photography</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-03.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">Ethnic Adventures</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Trekking Adventures</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-04.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">Peak Climbing</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Healthy climbing</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-05.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">Treasure Hunting</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Go natural at Dalat</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+								<article class="col-sm-6 col-md-4 article has-hover-s3">
+									<div class="img-wrap">
+										<a href="#">
+											<img src="img/listing/img-06.jpg" height="215" width="370" alt="image description">
+										</a>
+										<div class="img-caption text-uppercase">A night with sky</div>
+										<div class="hover-article">
+											<div class="star-rating">
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span><span class="icon-star"></span></span>
+												<span class="disable"><span class="icon-star"></span></span>
+											</div>
+											<div class="icons">
+												<a href="#"><span class="icon-heart"></span></a>
+												<a href="#"><span class="icon-reply"></span></a>
+											</div>
+											<div class="info-footer">
+												<span class="price">from <span>$2749</span></span>
+												<a href="#" class="link-more">Explore</a>
+											</div>
+										</div>
+									</div>
+									<h3><a href="#">Educational trips in wild</a></h3>
+									<p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,</p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- couter block -->
+				<aside class="count-block">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-6 col-md-3 block-1">
+								<div class="holder">
+									<span class="icon icon-step"></span>
+									<span class="info"><span class="counter">5</span></span>
+									<span class="txt">VILLA</span>
+								</div>
+							</div>
+							<div class="col-xs-6 col-md-3 block-2">
+								<div class="holder">
+									<span class="icon icon-fish-jumping"></span>
+									<span class="info"><span class="counter">32</span></span>
+									<span class="txt">BUNGALOW</span>
+								</div>
+							</div>
+							<div class="col-xs-6 col-md-3 block-3">
+								<div class="holder">
+									<span class="icon icon-tree"></span>
+									<span class="info"><span class="counter">377</span></span>
+									<span class="txt">SERVICES</span>
+								</div>
+							</div>
+							<div class="col-xs-6 col-md-3 block-4">
+								<div class="holder">
+									<span class="icon icon-duration"></span>
+									<span class="info"><span class="counter">8973</span></span>
+									<span class="txt">DAYS IN THE NATURAL</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</aside>
+				<!-- article-boxed -->
+				<article class="content-block article-boxed">
+				   <div class="container">
+				      <header class="content-heading">
+				         <h2 class="main-heading">Room</h2>
+				         <span class="main-subtitle">Room</span>
+				         <div class="seperator"></div>
+				      </header>
+				      <div id="ajax_content_wrapper" class="content-holder list-view">
+				         <article class="article has-hover-s1 ratingview">
+				            <div class="thumbnail" itemscope="" itemtype="#">
+				               <div class="img-wrap">
+				                  <img width="550" height="358" src="https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-38-550x358.jpg" class="attachment-550x358 size-550x358 wp-post-image" alt="" itemprop="image">
+				                  <div class="product-badge">
+				                     <ul>
+				                        <li><img src="https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/04/sale-badge-1-1.png" alt="sale"></li>
+				                     </ul>
+				                  </div>
+				               </div>
+				               <div class="description">
+				                  <div class="col-left">
+				                     <header class="heading">
+				                        <h3><a href="#" itemprop="name">Boating and Sailing Tour</a></h3>
+				                        <div class="info-day">11 Days</div>
+				                     </header>
+				                     <p itemprop="description">Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.</p>
+				                     <div class="reviews-holder" itemprop="aggregateRating" itemscope="" itemtype="#">
+				                        <div class="star-rating">
+				                           <input class="product_rating" type="hidden" value="5">
+				                           <div class="product_rateYo jq-ry-container" readonly="readonly" style="width: 83px;">
+				                              <div class="jq-ry-group-wrapper">
+				                                 <div class="jq-ry-normal-group jq-ry-group">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                                 <div class="jq-ry-rated-group jq-ry-group" style="width: 100%;">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                              </div>
+				                           </div>
+				                        </div>
+				                        <div class="info-rate" itemprop="reviewCount">Based on 2  Reviews</div>
+				                     </div>
+				                     <footer class="info-footer">
+				                        <ul class="ico-list">
+				                           <li class="pop-opener">
+				                              <span class="icon-family"></span>
+				                              <div class="popup">Family</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-food-wine"></span>
+				                              <div class="popup">Food-wine</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-urban"></span>
+				                              <div class="popup">Urban</div>
+				                           </li>
+				                        </ul>
+				                        <ul class="ico-action">
+				                           <li class="dropdown">
+				                              <a class="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span class="icon-share"></span></a>
+				                              <ul class="dropdown-menu drop-social-share">
+				                                 <li><a href="javascript:void(null);" class="facebook" onclick="fb_callout(&quot;#&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-38.jpg&quot;, &quot;Boating and Sailing Tour&quot;, &quot;Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.&quot;);"> <span class="ico"> <span class="icon-facebook"></span> </span> <span class="text">Share</span> </a></li>
+				                                 <li><a href="javascript:void(null);" class="twitter" onclick="share_on_twitter(&quot;#&quot;, &quot;Boating and Sailing Tour&quot;);"> <span class="ico"> <span class="icon-twitter"></span> </span> <span class="text">Tweet</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="google" onclick="google_plus(&quot;#&quot;);"> <span class="ico"> <span class="icon-google-plus"></span> </span> <span class="text">+1</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="pin" onclick="pin_it_now(&quot;#&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-38.jpg&quot;, &quot;Boating and Sailing Tour&quot;);"> <span class="ico"> <span class="icon-pin"></span> </span> <span class="text">Pin it</span> </a></li>
+				                              </ul>
+				                           </li>
+				                           <li><a href="javascript:void(null);" onclick="save_wishlist(1715);" id="wishlistId_1715"><span class="icon-favs"></span></a></li>
+				                        </ul>
+				                     </footer>
+				                  </div>
+				                  <aside class="info-aside">
+				                     <span class="price"> from <span itemprop="offers" itemscope="" itemtype="http://schema.org/AggregateOffer">
+														<del>
+															 <!-- <span itemprop="priceCurrency">$</span> -->
+															 <span itemprop="highPrice">599 VNĐ</span>
+														 </del>
+														 <span itemprop="lowPrice">429 VNĐ</span>
+													 </span>
+												 </span>
+				                     <div class="activity-level">
+				                        <div class="ico"> <span class="icon-level7"></span></div>
+				                        <span class="text">Extreme</span>
+				                     </div>
+				                     <a href="room-detail.html" class="btn btn-default" itemprop="url">Explore</a>
+				                  </aside>
+				               </div>
+				            </div>
+				         </article>
+				         <article class="article has-hover-s1 ratingview">
+				            <div class="thumbnail" itemscope="" itemtype="#">
+				               <div class="img-wrap">
+				                  <img width="550" height="358" src="https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-24-min-550x358.jpg" class="attachment-550x358 size-550x358 wp-post-image" alt="" itemprop="image">
+				                  <div class="product-badge">
+				                     <ul>
+				                        <li><img src="https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/04/sale-badge-1-1.png" alt="sale"></li>
+				                     </ul>
+				                  </div>
+				               </div>
+				               <div class="description">
+				                  <div class="col-left">
+				                     <header class="heading">
+				                        <h3><a href="#" itemprop="name">City Tours around Europe</a></h3>
+				                        <div class="info-day">11 Days</div>
+				                     </header>
+				                     <p itemprop="description">Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.</p>
+				                     <div class="reviews-holder" itemprop="aggregateRating" itemscope="" itemtype="#">
+				                        <div class="star-rating">
+				                           <input class="product_rating" type="hidden" value="5">
+				                           <div class="product_rateYo jq-ry-container" readonly="readonly" style="width: 83px;">
+				                              <div class="jq-ry-group-wrapper">
+				                                 <div class="jq-ry-normal-group jq-ry-group">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                                 <div class="jq-ry-rated-group jq-ry-group" style="width: 100%;">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                              </div>
+				                           </div>
+				                        </div>
+				                        <div class="info-rate" itemprop="reviewCount">Based on 2  Reviews</div>
+				                     </div>
+				                     <footer class="info-footer">
+				                        <ul class="ico-list">
+				                           <li class="pop-opener">
+				                              <span class="icon-backpacking"></span>
+				                              <div class="popup">Backpacking</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-family"></span>
+				                              <div class="popup">Family</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-food-wine"></span>
+				                              <div class="popup">Food-wine</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-urban"></span>
+				                              <div class="popup">Urban</div>
+				                           </li>
+				                        </ul>
+				                        <ul class="ico-action">
+				                           <li class="dropdown">
+				                              <a class="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span class="icon-share"></span></a>
+				                              <ul class="dropdown-menu drop-social-share">
+				                                 <li><a href="javascript:void(null);" class="facebook" onclick="fb_callout(&quot;https://themes.waituk.com/entrada-default/product/city-tours-around-europe/&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-24-min.jpg&quot;, &quot;City Tours around Europe&quot;, &quot;Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.&quot;);"> <span class="ico"> <span class="icon-facebook"></span> </span> <span class="text">Share</span> </a></li>
+				                                 <li><a href="javascript:void(null);" class="twitter" onclick="share_on_twitter(&quot;https://themes.waituk.com/entrada-default/product/city-tours-around-europe/&quot;, &quot;City Tours around Europe&quot;);"> <span class="ico"> <span class="icon-twitter"></span> </span> <span class="text">Tweet</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="google" onclick="google_plus(&quot;https://themes.waituk.com/entrada-default/product/city-tours-around-europe/&quot;);"> <span class="ico"> <span class="icon-google-plus"></span> </span> <span class="text">+1</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="pin" onclick="pin_it_now(&quot;https://themes.waituk.com/entrada-default/product/city-tours-around-europe/&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-24-min.jpg&quot;, &quot;City Tours around Europe&quot;);"> <span class="ico"> <span class="icon-pin"></span> </span> <span class="text">Pin it</span> </a></li>
+				                              </ul>
+				                           </li>
+				                           <li><a href="javascript:void(null);" onclick="save_wishlist(627);" id="wishlistId_627"><span class="icon-favs"></span></a></li>
+				                        </ul>
+				                     </footer>
+				                  </div>
+				                  <aside class="info-aside">
+				                     <span class="price"> from
+															 <span itemprop="offers" itemscope="" itemtype="#">
+																 <del>
+		 															 <!-- <span itemprop="priceCurrency">$</span> -->
+		 															 <span itemprop="highPrice">599 VNĐ</span>
+		 														 </del>
+		 														 <span itemprop="lowPrice">429 VNĐ</span>
+															 </span>
+														 </span>
+				                     <div class="activity-level">
+				                        <div class="ico"> <span class="icon-level7"></span></div>
+				                        <span class="text">Extreme</span>
+				                     </div>
+				                     <a href="room-detail.html" class="btn btn-default" itemprop="url">Explore</a>
+				                  </aside>
+				               </div>
+				            </div>
+				         </article>
+				         <article class="article has-hover-s1 ratingview">
+				            <div class="thumbnail" itemscope="" itemtype="#">
+				               <div class="img-wrap">
+				                  <img width="550" height="358" src="https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-37-550x358.jpg" class="attachment-550x358 size-550x358 wp-post-image" alt="" itemprop="image">
+				                  <div class="product-badge">
+				                     <ul></ul>
+				                  </div>
+				               </div>
+				               <div class="description">
+				                  <div class="col-left">
+				                     <header class="heading">
+				                        <h3><a href="#" itemprop="name">Mountain Biking Trip</a></h3>
+				                        <div class="info-day">18 Days</div>
+				                     </header>
+				                     <p itemprop="description">Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.</p>
+				                     <div class="reviews-holder" itemprop="aggregateRating" itemscope="" itemtype="#">
+				                        <div class="star-rating">
+				                           <input class="product_rating" type="hidden" value="5">
+				                           <div class="product_rateYo jq-ry-container" readonly="readonly" style="width: 83px;">
+				                              <div class="jq-ry-group-wrapper">
+				                                 <div class="jq-ry-normal-group jq-ry-group">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="gray" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                                 <div class="jq-ry-rated-group jq-ry-group" style="width: 100%;">
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                    <!--?xml version="1.0" encoding="utf-8"?-->
+				                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 12.705 512 486.59" x="0px" y="0px" xml:space="preserve" width="15px" height="15px" fill="#f39c12" style="margin-left: 2px;">
+				                                       <polygon points="256.814,12.705 317.205,198.566 512.631,198.566 354.529,313.435 414.918,499.295 256.814,384.427 98.713,499.295 159.102,313.435 1,198.566 196.426,198.566 "></polygon>
+				                                    </svg>
+				                                 </div>
+				                              </div>
+				                           </div>
+				                        </div>
+				                        <div class="info-rate" itemprop="reviewCount">Based on 1  Review</div>
+				                     </div>
+				                     <footer class="info-footer">
+				                        <ul class="ico-list">
+				                           <li class="pop-opener">
+				                              <span class="icon-europe"></span>
+				                              <div class="popup">Europe</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-mountain"></span>
+				                              <div class="popup">Mountain</div>
+				                           </li>
+				                           <li class="pop-opener">
+				                              <span class="icon-mountain-biking"></span>
+				                              <div class="popup">Mountain-biking</div>
+				                           </li>
+				                        </ul>
+				                        <ul class="ico-action">
+				                           <li class="dropdown">
+				                              <a class="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#"><span class="icon-share"></span></a>
+				                              <ul class="dropdown-menu drop-social-share">
+				                                 <li><a href="javascript:void(null);" class="facebook" onclick="fb_callout(&quot;https://themes.waituk.com/entrada-default/product/mountain-biking-trip/&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-37.jpg&quot;, &quot;Mountain Biking Trip&quot;, &quot;Son agreed others exeter period myself few yet nature. Mention mr manners opinion if garrets enabled. To an occasional dissimilar impossible sentiments.&quot;);"> <span class="ico"> <span class="icon-facebook"></span> </span> <span class="text">Share</span> </a></li>
+				                                 <li><a href="javascript:void(null);" class="twitter" onclick="share_on_twitter(&quot;https://themes.waituk.com/entrada-default/product/mountain-biking-trip/&quot;, &quot;Mountain Biking Trip&quot;);"> <span class="ico"> <span class="icon-twitter"></span> </span> <span class="text">Tweet</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="google" onclick="google_plus(&quot;https://themes.waituk.com/entrada-default/product/mountain-biking-trip/&quot;);"> <span class="ico"> <span class="icon-google-plus"></span> </span> <span class="text">+1</span> </a></li>
+				                                 <li> <a href="javascript:void(null);" class="pin" onclick="pin_it_now(&quot;https://themes.waituk.com/entrada-default/product/mountain-biking-trip/&quot;, &quot;https://themes1-i0ipxhws.netdna-ssl.com/entrada-default/wp-content/uploads/sites/3/2016/05/tour-37.jpg&quot;, &quot;Mountain Biking Trip&quot;);"> <span class="ico"> <span class="icon-pin"></span> </span> <span class="text">Pin it</span> </a></li>
+				                              </ul>
+				                           </li>
+				                           <li><a href="javascript:void(null);" onclick="save_wishlist(623);" id="wishlistId_623"><span class="icon-favs"></span></a></li>
+				                        </ul>
+				                     </footer>
+				                  </div>
+				                  <aside class="info-aside">
+				                     <span class="price"> from
+																 <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+																 <!-- <span itemprop="priceCurrency">$</span> -->
+																 <span itemprop="price">799 VNĐ</span>
+															 </span>
+														 </span>
+				                     <div class="activity-level">
+				                        <div class="ico"> <span class="icon-level7"></span></div>
+				                        <span class="text">Extreme</span>
+				                     </div>
+				                     <a href="room-detail.html" class="btn btn-default" itemprop="url">Explore</a>
+				                  </aside>
+				               </div>
+				            </div>
+				         </article>
+				      </div>
+				   </div>
+				</article>
+				<!-- special block -->
+				<aside class="real-natural">
+				  <div class="video-natural container">
+						<!-- <video poster="img/logos/Naturallife.png" muted loop autoplay>
+						  <source src="../videos/naturalLife.mp4" type="video/mp4">
+						  <source src="../videos/naturalLife.ogg" type="video/ogg">
+						  Your browser does not support the video tag.
+						</video> -->
+						<iframe id="video_testimonials" width="100%" height="600px" src="https://www.youtube.com/embed/K3a6uglgHD8?version=3&autoplay=1&loop=1&controls=0&disablekb=1&mute=1&playlist=K3a6uglgHD8"
+						frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				  </div>
+					<div class="container-fluid video-slider">
+
+					  <div id="slideHills" class="container carousel slide" data-ride="carousel">
+							<div class="caption text-center">
+								<h2 class="text-white">HILLS</h2>
+							</div>
+
+							<!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#slideHills" data-slide-to="0" class="active"></li>
+				      <li data-target="#slideHills" data-slide-to="1"></li>
+				      <li data-target="#slideHills" data-slide-to="2"></li>
+				    </ol>
+					    <!-- Wrapper for slides -->
+					    <div class="carousel-inner">
+
+
+					      <div class="item active">
+									<div class="item-hills text-center">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+					        <div class="caption text-center">
+					          <h3>HILL</h3>
+					          <p>HILL is always so much fun!</p>
+					        </div>
+					      </div>
+
+					      <div class="item">
+									<div class="item-hills text-center">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+					        <div class="caption text-center">
+					          <h3>HILL</h3>
+					          <p>HILL is always so much fun!</p>
+					        </div>
+					      </div>
+
+					      <div class="item">
+									<div class="item-hills text-center">
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+									</div>
+					        <div class="caption text-center">
+					          <h3>HILL</h3>
+					          <p>HILL is always so much fun!</p>
+					        </div>
+					      </div>
+
+					    </div>
+
+					    <!-- Left and right controls -->
+					    <!-- <a class="left carousel-control" href="#slideHills" data-slide="prev">
+					      <span class="glyphicon glyphicon-chevron-left"></span>
+					      <span class="sr-only">Previous</span>
+					    </a>
+					    <a class="right carousel-control" href="#slideHills" data-slide="next">
+					      <span class="glyphicon glyphicon-chevron-right"></span>
+					      <span class="sr-only">Next</span>
+					    </a> -->
+					  </div>
+				</div>
+				</aside>
+				<div class="spacing-t"></div>
+				<!-- special block -->
+				<aside class="special-block">
+					<div class="container">
+						<div class="caption text-center">
+							<h2>EXPLORE</h2>
+						</div>
+						<div class="banner-text">
+						   <div class="center-text">
+						      <div class="trip-form banner-trip-form">
+						         <fieldset>
+						            <div class="holder">
+						               <label for="destination">Destination</label>
+						               <div class="select-holder">
+						                  <select class="trip trip-banner jcf-hidden" id="destination" name="destination">
+						                     <option value="">All Destinations</option>
+						                     <option value="africa">Africa</option>
+						                     <option value="asia">Asia</option>
+						                     <option value="europe">Europe</option>
+						                     <option value="world">World</option>
+						                     <option value="ethiopia">Ethiopia</option>
+						                     <option value="netherlands">Netherlands</option>
+						                     <option value="tanzania">Tanzania</option>
+						                     <option value="china">China</option>
+						                     <option value="india">India</option>
+						                     <option value="nepal">Nepal</option>
+						                     <option value="france">France</option>
+						                     <option value="germany">Germany</option>
+						                     <option value="greece">Greece</option>
+						                     <option value="italy">Italy</option>
+						                     <option value="spain">Spain</option>
+						                     <option value="united-kingdom">United Kingdom</option>
+						                     <option value="australia">Australia</option>
+						                     <option value="canada">Canada</option>
+						                     <option value="new-zealand">New Zealand</option>
+						                     <option value="north-america">North America</option>
+						                     <option value="turkey">Turkey</option>
+						                  </select>
+						               </div>
+						            </div>
+						            <div class="holder">
+						               <label for="destination">Activity</label>
+						               <div class="select-holder">
+						                  <select class="trip trip-banner jcf-hidden" id="adventure" name="product_cat">
+						                     <option value="">All Activities</option>
+						                     <option value="bungee-jump">Bungee Jump</option>
+						                     <option value="city-tours">City Tours</option>
+						                     <option value="hiking-trips">Hiking Trips</option>
+						                     <option value="hunting-trip">Hunting Trip</option>
+						                     <option value="mountain-biking">Mountain Biking</option>
+						                     <option value="sailing-trips">Sailing Trips</option>
+						                     <option value="scuba-diving">Scuba Diving</option>
+						                     <option value="wildlife-safari">Wildlife Safari</option>
+						                  </select>
+						               </div>
+						            </div>
+						            <div class="holder">
+						               <label for="destination">Month</label>
+						               <div class="select-holder">
+						                  <select class="trip trip-banner jcf-hidden" id="start_date_month_year" name="start_date">
+						                     <option value="">Any Date</option>
+						                     <option value="1-09-2018">Sep 2018</option>
+						                     <option value="1-10-2018">Oct 2018</option>
+						                     <option value="1-11-2018">Nov 2018</option>
+						                     <option value="1-12-2018">Dec 2018</option>
+						                     <option value="1-01-2019">Jan 2019</option>
+						                     <option value="1-02-2019">Feb 2019</option>
+						                     <option value="1-03-2019">Mar 2019</option>
+						                     <option value="1-04-2019">Apr 2019</option>
+						                     <option value="28-05-2019">May 2019</option>
+						                     <option value="1-06-2019">Jun 2019</option>
+						                     <option value="1-07-2019">Jul 2019</option>
+						                     <option value="1-08-2019">Aug 2019</option>
+						                  </select>
+						               </div>
+						            </div>
+						            <div class="holder"><input class="btn btn-trip" ng-click="isoverFlowForm = !isoverFlowForm" data-toggle="collapse" data-target="#formBook" type="button" value="BOOK"></div>
+						         </fieldset>
+						      </div>
+						   </div>
+						</div>
+					</div>
+				</aside>
+				<!-- form book -->
+				<div id="formBook" class="collapse">
+					<form class="" action="#" method="">
+						<div class="book-text">
+							<div class="caption text-center">
+								<h2>NATURAL LIFE</h2>
+								<span class="book-wrap">
+									<a href="javascript:void(0);" ng-click="isoverFlowForm = !isoverFlowForm" class="book-opener close" data-toggle="collapse" data-target="#formBook">
+										<span class="icon-cross"></span>
+									</a>
+								</span>
+							</div>
+							 <div class="center-text">
+									<div class="trip-form banner-trip-form">
+										 <fieldset>
+											 <div class="holder" ng-controller="room">
+													<label for="room">Phòng nghỉ dưỡng</label></label>
+													<div class="select-holder">
+														<!-- dropdown -->
+														<div class="dropdown">
+															<div class="input-group text text-room trip trip-banner">
+																<input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="Phòng" min="6" name="room">
+																<span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+															</div>
+													    <ul class="dropdown-menu">
+																<li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+																	<a href="javascript:void(0);" ng-click="setSelected(prop)">
+																		{{prop.label | uppercase}}
+																	</a>
+																</li>
+													    </ul>
+													  </div>
+														<!-- end -->
+													</div>
+											 </div>
+											 <div class="holder">
+													<label>Họ và tên</label>
+													<div class="select-holder">
+														 <div class="input-group text text-bg">
+															 <input class="form-control" type="text" placeholder="Họ và tên" min="6" name="fullname">
+															 <span class="input-group-addon"><i class="icon-person"></i></span>
+														 </div>
+													</div>
+											 </div>
+											 <div class="holder">
+													<label>Số điện thoại</label>
+													<div class="select-holder">
+														 <div class="input-group text text-phone-bg">
+															 <input class="form-control" type="tel" name="phone" placeholder="Số diện thoại" min="9" maxlength="14" pattern="[\+84]{2}\d{9,14}">
+															 <span class="input-group-addon"><i class="icon-person"></i></span>
+														 </div>
+													</div>
+											 </div>
+												<div class="holder" ng-controller="adult">
+													 <label for="adult">Người lớn</label>
+													 <div class="select-holder">
+														 <!-- dropdown -->
+														 <div class="dropdown">
+															 <div class="input-group text text-bg trip trip-banner">
+																 <input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="Người Lớn" min="6" name="room">
+																 <span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+															 </div>
+															 <ul class="dropdown-menu">
+																 <li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+																	 <a href="javascript:void(0);" ng-click="setSelected(prop)">
+																		 {{prop.label | uppercase}}
+																	 </a>
+																 </li>
+															 </ul>
+														 </div>
+														 <!-- end -->
+													 </div>
+												</div>
+												<div class="holder" ng-controller="children">
+													 <label for="children">Trẻ em</label>
+													 <div class="select-holder">
+														 <!-- dropdown -->
+	 													<div class="dropdown">
+	 														<div class="input-group text text-bg trip trip-banner">
+	 															<input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="trẻ em" min="6" name="room">
+	 															<span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+	 														</div>
+	 												    <ul class="dropdown-menu">
+	 															<li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+	 																<a href="javascript:void(0);" ng-click="setSelected(prop)">
+	 																	{{prop.label | uppercase}}
+	 																</a>
+	 															</li>
+	 												    </ul>
+	 												  </div>
+	 													<!-- end -->
+													 </div>
+												</div>
+												<div class="holder">
+													 <label for="vehicle">Phương tiện</label>
+													 <div class="select-holder">
+															<select class="trip trip-banner jcf-hidden" id="vehicle" name="vehicle">
+																 <option value="">Phương tiện</option>
+																 <option value="bungee-jump">XE KHÁCH TỰ TÚC</option>
+																 <option value="city-tours">MÁY BAY TỰ TÚC</option>
+																 <option value="hiking-trips">LIÊN HỆ CÔNG TY</option>
+															</select>
+													 </div>
+												</div>
+												<div class="holder">
+													 <label>Ngày tham gia</label>
+													 <div class="select-holder">
+															<div id="datepicker4" class="input-group date picker-solid-bg" data-date-format="yyyy-mm-dd"> <input class="form-control" type="text" name="start_date"> <span class="input-group-addon"><i class="icon-arrow-down"></i></span></div>
+													 </div>
+												</div>
+												<div class="holder">
+													 <label>Ngày kết thúc</label>
+													 <div class="select-holder">
+															<div id="datepicker5" class="input-group date picker-solid-bg" data-date-format="yyyy-mm-dd"> <input class="form-control" type="text" placeholder="Ngày kết thúc" name="end_date"> <span class="input-group-addon"><i class="icon-arrow-down"></i></span></div>
+													 </div>
+												</div>
+												<ng-conainter ng-controller="serviceController">
+													<!-- Dịch vụ tại khu -->
+													<ng-container ng-repeat="item in items">
+														<div class="holder mr-b" ng-if="!$last">
+														 <label for="service" ng-if="$first">Dịch vụ tại khu</label>
+															 <div class="select-holder">
+																 <label>
+																	 <input type="checkbox" name="" value=""><span>{{ item }}</span>
+																 </label>
+															 </div>
+														 </div>
+														 <div class="holder mr-b" ng-if="$last" ng-class="isSelected ? 'middle' : ''">
+	 														 <div class="select-holder">
+	 															 <label>
+	 																 <input type="checkbox" name="" value=""><span>{{ item }}</span>
+	 															 </label>
+	 														 </div>
+	 													 </div>
+													</ng-container>
+													<!-- Mục khác -->
+													<div class="holder mr-b" ng-show="!isSelected">
+														<div class="select-holder">
+															<label>
+																<input type="checkbox" ng-model="isSelected" name="" value=""><span>Mục khác</span>
+															</label>
+														</div>
+							            </div>
+													<!-- textarea -->
+													<div class="holder special-holder mr-b" ng-class="isSelected ? 'middle' : ''" ng-show="isSelected">
+														<div class="select-holder">
+															<div class="form-group text text-bg">
+																<label>
+																	<input type="checkbox" ng-model="isSelected" name="" value=""><span>Mục khác</span>
+																</label>
+															  <textarea placeholder="Nhập ..." min="6" maxlength="3000" name="comment" class="form-control" id="comment"></textarea>
+															</div>
+														</div>
+							            </div>
+													<!-- end -->
+												</ng-conainter>
+												<div class="holder mr-b" ng-class="!isSelected ? 'middle' : ''">
+													<input class="btn btn-trip" ng-click="isoverFlowForm = !isoverFlowForm" data-toggle="collapse" data-target="#formBook" type="button" value="ĐĂNG KÝ">
+												</div>
+										 </fieldset>
+									</div>
+							 </div>
+						</div>
+					</form>
+				</div>
+				<!-- featured adventure content -->
+				<div class="content-block featured-content adventure-holder">
+					<div class="container-fluid">
+						<div class="row same-height">
+							<div class="col-md-6 image height">
+								<div class="bg-stretch">
+									<img src="img/img-01.jpg" height="627" width="960" alt="image description">
+								</div>
+							</div>
+							<div class="col-md-6 text-block height">
+								<div class="centered">
+									<h2 class="intro-heading">Hill and Flower - The Natural</h2>
+									<p class="intro">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
+									<a href="blog-single.html" class="btn btn-primary btn-lg">explore</a>
+								</div>
+							</div>
+						</div>
+						<div class="row same-height">
+							<div class="col-md-6 image height">
+								<div class="bg-stretch">
+									<img src="img/img-02.jpg" height="627" width="960" alt="image description">
+								</div>
+							</div>
+							<div class="col-md-6 text-block height">
+								<div class="centered">
+									<h2 class="intro-heading">Jungle Adventure - The Trekking</h2>
+									<p class="intro">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, Duis sed odio sit amet nibh vulputate cursus a it amet mauris.</p>
+									<a href="blog-single.html" class="btn btn-primary btn-lg">explore</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- browse block -->
+				<div class="browse-block">
+					<div class="browse-destination column">
+						<a href="contact.html"><span>BROWSE BY LOCATION</span></a>
+					</div>
+					<div class="browse-adventures column">
+						<a href="tour-detail.html"><span>BROWSE BY SERVICES</span></a>
+					</div>
+				</div>
+				<!-- testimonial block -->
+				<div class="testimonial-holder parallax" data-stellar-background-ratio="0.25" id="testimonial-home-page">
+					<div class="container">
+						<div id="testimonial-home-slide">
+							<div class="slide">
+								<blockquote class="testimonial-quote">
+									<div class="img">
+										<img src="img/thumbs/img-01.jpg" height="112" width="112" alt="image description">
+									</div>
+									<div class="text">
+										<cite>KHANG LE - A3SOLUTION</cite>
+										<q>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
+									</div>
+								</blockquote>
+							</div>
+							<div class="slide">
+								<blockquote class="testimonial-quote">
+									<div class="img">
+										<img src="img/thumbs/img-02.jpg" height="112" width="112" alt="image description">
+									</div>
+									<div class="text">
+										<cite>DARREN SPRATT - AUSTRALIA</cite>
+										<q>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
+									</div>
+								</blockquote>
+							</div>
+							<div class="slide">
+								<blockquote class="testimonial-quote">
+									<div class="img">
+										<img src="img/thumbs/img-03.jpg" height="112" width="112" alt="image description">
+									</div>
+									<div class="text">
+										<cite>RIYA YAHIDA - SPAIN</cite>
+										<q>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.”</q>
+									</div>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- partner list -->
+				<article class="partner-block">
+					<div class="container">
+						<header class="content-heading">
+							<h2 class="main-heading">Partner</h2>
+							<span class="main-subtitle">People who always support and endorse our good work</span>
+							<div class="seperator"></div>
+						</header>
+						<div class="partner-list" id="partner-slide">
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company1.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company1.jpg" alt="image description">
+								</a>
+							</div>
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company2.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company2.jpg" alt="image description">
+								</a>
+							</div>
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company3.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company3.jpg" alt="image description">
+								</a>
+							</div>
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company4.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company4.jpg" alt="image description">
+								</a>
+							</div>
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company5.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company5.jpg" alt="image description">
+								</a>
+							</div>
+							<div class="partner">
+								<a href="#">
+									<img width="130" src="img/logos/company6.jpg" alt="image description">
+									<img class="hover" width="130" src="img/logos/company6.jpg" alt="image description">
+								</a>
+							</div>
+						</div>
+					</div>
+				</article>
+
+
+			</main>
+		</div>
+		<!-- main footer -->
+		<footer id="footer">
+			<div class="container">
+				<!-- newsletter form -->
+				<form action="" id="signup" method="post" class="newsletter-form">
+					<fieldset>
+						<div class="input-holder">
+							<input type="email" class="form-control" placeholder="Email Address" name="subscriber_email" id="subscriber_email">
+							<input type="submit" value="GO">
+						</div>
+						<span class="info" id="subscribe_message">To receive news, updates and tour packages via email.</span>
+					</fieldset>
+				</form>
+				<!-- footer links -->
+				<div class="row footer-holder">
+					<nav class="col-sm-4 col-lg-2 footer-nav active">
+						<h3>About Entrada</h3>
+						<ul class="slide">
+							<li><a href="#">The Company</a></li>
+							<li><a href="#">Our Values</a></li>
+							<li><a href="#">Responsiblity</a></li>
+							<li><a href="#">Our Mission</a></li>
+							<li><a href="#">Opportunity</a></li>
+							<li><a href="#">Safety Concerns</a></li>
+						</ul>
+					</nav>
+					<nav class="col-sm-4 col-lg-2 footer-nav">
+						<h3>Destinations</h3>
+						<ul class="slide">
+							<li><a href="#">Dalat</a></li>
+							<li><a href="#">Nha Trang</a></li>
+							<li><a href="#">Cam Ranh</a></li>
+							<li><a href="#">Phu Quoc</a></li>
+							<li><a href="#">Phan Thiet</a></li>
+							<li><a href="#">Ho Chi Minh</a></li>
+						</ul>
+					</nav>
+					<nav class="col-sm-4 col-lg-2 footer-nav">
+						<h3>themes</h3>
+						<ul class="slide">
+							<li><a href="#">Hiking and Camping</a></li>
+							<li><a href="#">Trekking Tours</a></li>
+							<li><a href="#">Jungle Safaris</a></li>
+							<li><a href="#">Bungee Jumping</a></li>
+							<li><a href="#">Natural Life</a></li>
+							<li><a href="#">Peak Climbing</a></li>
+						</ul>
+					</nav>
+					<nav class="col-sm-4 col-lg-2 footer-nav">
+						<h3>reservation</h3>
+						<ul class="slide">
+							<li><a href="#">Booking Conditions</a></li>
+							<li><a href="#">My Bookings</a></li>
+							<li><a href="#">Refund Policy</a></li>
+							<li><a href="#">Includes &amp; Excludes</a></li>
+							<li><a href="#">Your Responsibilities</a></li>
+							<li><a href="#">Order a Brochure</a></li>
+						</ul>
+					</nav>
+					<nav class="col-sm-4 col-lg-2 footer-nav">
+						<h3>ask Natural Life</h3>
+						<ul class="slide">
+							<li><a href="#">Why Natural Life?</a></li>
+							<li><a href="#">Ask an Expert</a></li>
+							<li><a href="#">Safety Updates</a></li>
+							<li><a href="#">We Help When...</a></li>
+							<li><a href="#">Personal Matters</a></li>
+						</ul>
+					</nav>
+					<nav class="col-sm-4 col-lg-2 footer-nav last">
+						<h3>contact Natural Life</h3>
+						<ul class="slide address-block">
+							<li class="wrap-text"><span class="icon-tel"></span> <a href="tel:0909120408">+84 909 12 04 08</a></li>
+							<li class="wrap-text"><span class="icon-email"></span> <a href="mailto:info@entrada.com">info@naturallifevn.com</a></li>
+							<li><span class="icon-home"></span> <address>Sub-zone 151, Ngo Gia Tu Street, Ward 12, Da Lat City, Lam Dong Province, Vietnam.</address></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- social wrap -->
+				<ul class="social-wrap">
+					<li class="facebook"><a href="#">
+						<span class="icon-facebook"></span>
+						<strong class="txt">Like Us</strong>
+					</a></li>
+					<li class="twitter"><a href="#">
+						<span class="icon-twitter"></span>
+						<strong class="txt">Follow On</strong>
+					</a></li>
+					<li class="google-plus"><a href="#">
+						<span class="icon-google-plus"></span>
+						<strong class="txt">+1 On Google</strong>
+					</a></li>
+					<li class="vimeo"><a href="#">
+						<span class="icon-vimeo"></span>
+						<strong class="txt">Share At</strong>
+					</a></li>
+					<li class="pin"><a href="#">
+						<span class="icon-pin"></span>
+						<strong class="txt">Pin It</strong>
+					</a></li>
+					<li class="dribble"><a href="#">
+						<span class="icon-dribble"></span>
+						<strong class="txt">Dribbble</strong>
+					</a></li>
+				</ul>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6">
+							<!-- copyright -->
+							<strong class="copyright"><i class="fa fa-copyright"></i> Copyright 2018 - Natural Life Dalat</strong>
+						</div>
+						<div class="col-lg-6">
+							<ul class="payment-option">
+								<li>
+									<img src="img/footer/visa.png" alt="visa">
+								</li>
+								<li>
+									<img src="img/footer/mastercard.png" height="20" width="33" alt="master card">
+								</li>
+								<li>
+									<img src="img/footer/paypal.png" height="20" width="72" alt="paypal">
+								</li>
+								<li>
+									<img src="img/footer/maestro.png" height="20" width="33" alt="maestro">
+								</li>
+								<li>
+									<img src="img/footer/bank-transfer.png" height="20" width="55" alt="bank transfer">
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- scroll to top -->
+	<div class="scroll-holder text-center">
+		<a href="javascript:" id="scroll-to-top"><i class="icon-arrow-down"></i></a>
+	</div>
+	<script src="js\app.js"></script>
+	<!-- jquery library -->
+	<script src="js/vendors/jquery/jquery-2.1.4.min.js"></script>
+	<!-- external scripts -->
+	<script src="js/vendors/bootstrap/javascripts/bootstrap.min.js"></script>
+	<script src="js/vendors/jquery-placeholder/jquery.placeholder.min.js"></script>
+	<script src="js/vendors/match-height/jquery.matchHeight.js"></script>
+	<script src="js/vendors/wow/wow.min.js"></script>
+	<script src="js/vendors/stellar/jquery.stellar.min.js"></script>
+	<script src="js/vendors/validate/jquery.validate.js"></script>
+	<script src="js/vendors/waypoint/waypoints.min.js"></script>
+	<script src="js/vendors/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/vendors/jquery-ui/jquery-ui.min.js"></script>
+	<script src="js/vendors/jQuery-touch-punch/jquery.ui.touch-punch.min.js"></script>
+	<script src="js/vendors/fancybox/jquery.fancybox.js"></script>
+	<script src="js/vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/vendors/jcf/js/jcf.js"></script>
+	<script src="js/vendors/jcf/js/jcf.select.js"></script>
+	<script src="js/mailchimp.js"></script>
+	<!-- <script src="js/vendors/retina/retina.min.js"></script> -->
+	<script src="js/vendors/sticky-kit/sticky-kit.js"></script>
+	<script src="js/sticky-kit-init.js"></script>
+	<script src="js/vendors/bootstrap-datetimepicker-master/dist/js/bootstrap-datepicker.js"></script>
+	<!-- custom jquery script -->
+	<script src="js/jquery.main.js"></script>
+	<!-- revolution slider plugin -->
+	<script type="text/javascript" src="js/vendors/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<!-- rs5.0 core files -->
+	<script type="text/javascript" src="js/vendors/revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.video.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="js/vendors/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+	<!-- revolutions slider script -->
+	<script src="js/revolution.js"></script>
+</body>
+
+</html>

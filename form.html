@@ -1,0 +1,165 @@
+<!-- form book -->
+<div id="formBook" class="collapse">
+  <form class="" action="#" method="">
+    <div class="book-text">
+      <div class="caption text-center">
+        <h2>NATURAL LIFE</h2>
+        <span class="book-wrap">
+          <a href="javascript:void(0);" ng-click="isoverFlowForm = !isoverFlowForm" class="book-opener close" data-toggle="collapse in" data-target="#formBook">
+            <span class="icon-cross"></span>
+          </a>
+        </span>
+      </div>
+       <div class="center-text">
+          <div class="trip-form banner-trip-form">
+             <fieldset>
+               <div class="holder" ng-controller="room">
+                  <label for="room">Phòng nghỉ dưỡng</label></label>
+                  <div class="select-holder">
+                    <!-- dropdown -->
+                    <div class="dropdown">
+                      <div class="input-group text text-room trip trip-banner">
+                        <input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="Phòng" min="6" name="room">
+                        <span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+                      </div>
+                      <ul class="dropdown-menu">
+                        <li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+                          <a href="javascript:void(0);" ng-click="setSelected(prop)">
+                            {{prop.label | uppercase}}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end -->
+                  </div>
+               </div>
+               <div class="holder">
+                  <label>Họ và tên</label>
+                  <div class="select-holder">
+                     <div class="input-group text text-bg">
+                       <input class="form-control" type="text" placeholder="Họ và tên" min="6" name="fullname">
+                       <span class="input-group-addon"><i class="icon-person"></i></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="holder">
+                  <label>Số điện thoại</label>
+                  <div class="select-holder">
+                     <div class="input-group text text-phone-bg">
+                       <input class="form-control" type="tel" name="phone" placeholder="Số diện thoại" min="9" maxlength="14" pattern="[\+84]{2}\d{9,14}">
+                       <span class="input-group-addon"><i class="icon-person"></i></span>
+                     </div>
+                  </div>
+               </div>
+                <div class="holder" ng-controller="adult">
+                   <label for="adult">Người lớn</label>
+                   <div class="select-holder">
+                     <!-- dropdown -->
+                     <div class="dropdown">
+                       <div class="input-group text text-bg trip trip-banner">
+                         <input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="Người Lớn" min="6" name="room">
+                         <span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+                       </div>
+                       <ul class="dropdown-menu">
+                         <li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+                           <a href="javascript:void(0);" ng-click="setSelected(prop)">
+                             {{prop.label | uppercase}}
+                           </a>
+                         </li>
+                       </ul>
+                     </div>
+                     <!-- end -->
+                   </div>
+                </div>
+                <div class="holder" ng-controller="children">
+                   <label for="children">Trẻ em</label>
+                   <div class="select-holder">
+                     <!-- dropdown -->
+                    <div class="dropdown">
+                      <div class="input-group text text-bg trip trip-banner">
+                        <input class="form-control" type="text" data-toggle="dropdown" value="{{selectedprop.label | uppercase}}" placeholder="trẻ em" min="6" name="room">
+                        <span class="input-group-addon"><i class="icon-arrow-down"></i></span>
+                      </div>
+                      <ul class="dropdown-menu">
+                        <li ng-repeat="prop in props" ng-class="{selected: prop == selectedprop}">
+                          <a href="javascript:void(0);" ng-click="setSelected(prop)">
+                            {{prop.label | uppercase}}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- end -->
+                   </div>
+                </div>
+                <div class="holder">
+                   <label for="vehicle">Phương tiện</label>
+                   <div class="select-holder">
+                      <select class="trip trip-banner jcf-hidden" id="vehicle" name="vehicle">
+                         <option value="">Phương tiện</option>
+                         <option value="bungee-jump">XE KHÁCH TỰ TÚC</option>
+                         <option value="city-tours">MÁY BAY TỰ TÚC</option>
+                         <option value="hiking-trips">LIÊN HỆ CÔNG TY</option>
+                      </select>
+                   </div>
+                </div>
+                <div class="holder">
+                   <label>Ngày tham gia</label>
+                   <div class="select-holder">
+                      <div id="datepicker4" class="input-group date picker-solid-bg" data-date-format="yyyy-mm-dd"> <input class="form-control" type="text" name="start_date"> <span class="input-group-addon"><i class="icon-arrow-down"></i></span></div>
+                   </div>
+                </div>
+                <div class="holder">
+                   <label>Ngày kết thúc</label>
+                   <div class="select-holder">
+                      <div id="datepicker5" class="input-group date picker-solid-bg" data-date-format="yyyy-mm-dd"> <input class="form-control" type="text" placeholder="Ngày kết thúc" name="end_date"> <span class="input-group-addon"><i class="icon-arrow-down"></i></span></div>
+                   </div>
+                </div>
+                <ng-conainter ng-controller="serviceController">
+                  <!-- Dịch vụ tại khu -->
+                  <ng-container ng-repeat="item in items">
+                    <div class="holder mr-b" ng-if="!$last">
+                     <label for="service" ng-if="$first">Dịch vụ tại khu</label>
+                       <div class="select-holder">
+                         <label>
+                           <input type="checkbox" name="" value=""><span>{{ item }}</span>
+                         </label>
+                       </div>
+                     </div>
+                     <div class="holder mr-b" ng-if="$last" ng-class="isSelected ? 'middle' : ''">
+                       <div class="select-holder">
+                         <label>
+                           <input type="checkbox" name="" value=""><span>{{ item }}</span>
+                         </label>
+                       </div>
+                     </div>
+                  </ng-container>
+                  <!-- Mục khác -->
+                  <div class="holder mr-b" ng-show="!isSelected">
+                    <div class="select-holder">
+                      <label>
+                        <input type="checkbox" ng-model="isSelected" name="" value=""><span>Mục khác</span>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- textarea -->
+                  <div class="holder special-holder mr-b" ng-class="isSelected ? 'middle' : ''" ng-show="isSelected">
+                    <div class="select-holder">
+                      <div class="form-group text text-bg">
+                        <label>
+                          <input type="checkbox" ng-model="isSelected" name="" value=""><span>Mục khác</span>
+                        </label>
+                        <textarea placeholder="Nhập ..." min="6" maxlength="3000" name="comment" class="form-control" id="comment"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end -->
+                </ng-conainter>
+                <div class="holder mr-b" ng-class="!isSelected ? 'middle' : ''">
+                  <input class="btn btn-trip" ng-click="isoverFlowForm = !isoverFlowForm" data-toggle="collapse" data-target="#formBook" type="button" value="ĐĂNG KÝ">
+                </div>
+             </fieldset>
+          </div>
+       </div>
+    </div>
+  </form>
+</div>
